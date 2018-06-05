@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/go-examples/gorm/db"
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"github.com/y-ogura/yakiniku/db"
 	"github.com/y-ogura/yakiniku/db/migration"
 )
 
